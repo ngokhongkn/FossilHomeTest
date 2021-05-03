@@ -12,15 +12,11 @@ time is over.
 
 ### Structure
 
-com.dunghx.fossil       # Root Package
-.
-├── DialogManager       # Handle issues of dialog.
-|
-├── MainActivity        # Handle issues of UI.
-|
-├── NotifyManager       # Handle issues of Notification.        
-|
-└── TimerUtil           # Handle issues of Time.
+- com.dunghx.fossil   # Root Package
+- DialogManager       # Handle issues of dialog.
+- MainActivity        # Handle issues of UI.
+- NotifyManager       # Handle issues of Notification.        
+- TimerUtil           # Handle issues of Time.
 
 ### Screenshots
 
