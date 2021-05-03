@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Time</string>
+    <string name="timer_default">00:00</string>
+    <string name="timer_start">Start</string>
+    <string name="timer_pause">Pause</string>
+    <string name="timer_cancel">Cancel</string>
+    <string name="timer_set_time">SET TIME</string>
+    <string name="timer_min">MIN</string>
+    <string name="timer_sec">SEC</string>
+    <string name="timer_finish">Time Up!</string>
+    <string name="timer_finish_message">Count down timer is finished</string>
+    <string name="dialog_button_set">SET</string>
+</resources>

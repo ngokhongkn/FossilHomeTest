@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_margin"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/timer_min"
+            android:textColor="@color/purple_200"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/timer_sec"
+            android:textColor="@color/purple_200"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <NumberPicker
+            android:id="@+id/dialog_min"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dialog_number_picker_height"
+            android:layout_weight="2"
+            android:theme="@style/AppTheme.Picker" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dialog_number_picker_height"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=":"
+            android:textColor="@color/purple_200"
+            android:textSize="30sp" />
+
+        <NumberPicker
+            android:id="@+id/dialog_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dialog_number_picker_height"
+            android:layout_weight="2"
+            android:theme="@style/AppTheme.Picker" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_button_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:gravity="center"
+        android:text="@string/dialog_button_set"
+        android:textColor="@color/purple_200"
+        android:textSize="@dimen/text_size_title"
+        android:textStyle="bold" />
+</LinearLayout>

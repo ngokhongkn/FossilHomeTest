@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="bg_radius">18dp</dimen>
+    <dimen name="progress_bar_size">270dp</dimen>
+    <dimen name="margin_bottom">40dp</dimen>
+    <dimen name="text_size">15sp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_timer">40sp</dimen>
+    <dimen name="dialog_margin">20dp</dimen>
+    <dimen name="dialog_number_picker_height">80dp</dimen>
+</resources>
